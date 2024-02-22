@@ -20,8 +20,8 @@
                                 @enderror
                             </div>
                             <div class="mb-3">
-                                <label for="isi" class="form-label">Isi</label>
-                                <div id="isi" style="height:350px;">{!! $filem->isi !!}</div>
+                                <label for="isi" class="form-label">Deskripsi</label>
+                                <div id="isi" style="height:100px;">{!! $filem->isi !!}</div>
                                 <textarea class="form-control" name="isi" id="content-textarea" hidden style="display: none;">{!! $filem->isi !!}</textarea>
                                 @error('isi')
                                     <p class='text-danger mb-0 text-xs pt-1'> {{ $message }} </p>

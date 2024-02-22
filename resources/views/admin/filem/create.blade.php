@@ -17,10 +17,10 @@
                                     <p class='text-danger mb-0 text-xs pt-1'> {{ $message }} </p>
                                 @enderror
                             </div>
-              
+
                             <div class="mb-3">
-                                <label for="isi" class="form-label">Isi</label>
-                                <div id="isi" style="height: 350px;" contenteditable="true" oninput="updateTextarea()"></div>
+                                <label for="isi" class="form-label">Desckripsi</label>
+                                <div id="isi" style="height: 70px;" contenteditable="true" oninput="updateTextarea()"></div>
                                 <textarea class="form-control" name="isi" id="content-textarea" style="display: none;"></textarea>
                                 @error('isi')
                                     <p class="text-danger mb-0 text-xs pt-1">{{ $message }}</p>
